@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap");
-
 :root {
   --primary-color-main: #a5d6a7;
   --primary-color-light: #d7ffd9;
@@ -8,12 +7,10 @@
   --secondary-color-light: #4c8c4a;
   --secondary-color-dark: #003300;
 }
-
 * {
   margin: 0;
   padding: 0;
 }
-
 body {
   margin: 0 auto;
   padding: 0;
@@ -31,14 +28,13 @@ body {
 .navcontainer {
   text-align: center;
 }
-
 .navcontainer__heading {
   margin: 1rem;
   font-weight: 300;
   font-size: 3rem;
   color: var(--secondary-color-dark);
+  text-transform: uppercase;
 }
-
 .navcontainer__divider {
   border: 1px solid var(--secondary-color-dark);
   margin-top: 1rem;
@@ -55,12 +51,10 @@ body {
   margin: 0.5rem 1rem;
   margin-bottom: 2rem;
 }
-
 .navcontainer__ul li a {
   text-decoration: none;
   color: var(--secondary-color-dark);
 }
-
 .navcontainer__ul li a:hover {
   color: var(--primary-color-main);
   font-size: 2rem;
@@ -74,12 +68,15 @@ body {
 .hero__image {
   margin-bottom: 2rem;
 }
-
 .hero__header {
   margin: 1rem;
   font-weight: 300;
   font-size: 3rem;
   color: var(--secondary-color-dark);
+}
+.hero__header--uppercase {
+  text-transform: uppercase;
+  font-weight: 400;
 }
 /* About section */
 .about {
@@ -101,4 +98,9 @@ body {
   color: var(--secondary-color-dark);
   font-weight: 400;
   font-size: 1.2rem;
+}
+.about__paragraph--uppercase {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.3rem;
 }
