@@ -67,6 +67,7 @@ body {
 }
 .hero__image {
   margin-bottom: 2rem;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.6);
 }
 .hero__header {
   margin: 1rem;
@@ -103,4 +104,35 @@ body {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.3rem;
+}
+.menu {
+  text-align: center;
+}
+.menu__heading {
+  font-weight: 300;
+  font-size: 3rem;
+  margin: 2rem;
+}
+.menu__subheading {
+  font-weight: 300;
+  font-size: 2rem;
+  margin: 2rem;
+}
+.menu__items {
+  display: flex;
+  list-style-type: none;
+}
+.menu__items li {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  margin: 1rem;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.6);
+  background-color: var(--primary-color-main);
+}
+.menu__items li img {
+  width: 500px;
+  height: 400px;
+  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.6);
 }
