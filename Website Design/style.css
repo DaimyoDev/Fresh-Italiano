@@ -25,6 +25,8 @@ body {
     var(--primary-color-dark)
   );
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 /* Navigation */
 .navcontainer {
@@ -47,9 +49,12 @@ body {
   justify-content: center;
   align-items: center;
   list-style: none;
+  flex-wrap: wrap;
+  max-width: 1200px;
 }
 .navcontainer__ul li {
   margin: 0.5rem 1rem;
+  margin-bottom: 2rem;
 }
 
 .navcontainer__ul li a {
@@ -61,4 +66,19 @@ body {
   color: var(--primary-color-main);
   font-size: 2rem;
   transform: 0.2s all;
+}
+/* Hero */
+.hero {
+  text-align: center;
+  margin: 2rem auto;
+}
+.hero__image {
+  margin-bottom: 2rem;
+}
+
+.hero__header {
+  margin: 1rem;
+  font-weight: 300;
+  font-size: 3rem;
+  color: var(--secondary-color-dark);
 }
