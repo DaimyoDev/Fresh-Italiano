@@ -4,9 +4,9 @@
   --primary-color-main: #a5d6a7;
   --primary-color-light: #d7ffd9;
   --primary-color-dark: #75a478;
-  --secondary-color-main: #e0f2f1;
-  --secondary-color-light: #ffffff;
-  --secondary-color-dark: #aebfbe;
+  --secondary-color-main: #1b5e20;
+  --secondary-color-light: #4c8c4a;
+  --secondary-color-dark: #003300;
 }
 
 * {
@@ -24,7 +24,6 @@ body {
     var(--primary-color-light),
     var(--primary-color-dark)
   );
-  height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -81,4 +80,25 @@ body {
   font-weight: 300;
   font-size: 3rem;
   color: var(--secondary-color-dark);
+}
+/* About section */
+.about {
+  text-align: center;
+}
+.about__mainheading {
+  margin: 1rem;
+  color: var(--secondary-color-dark);
+  font-weight: 300;
+  font-size: 3rem;
+}
+.about__subheading {
+  color: var(--secondary-color-dark);
+  margin: 1rem;
+  font-weight: 300;
+  font-size: 2rem;
+}
+.about__paragraph {
+  color: var(--secondary-color-dark);
+  font-weight: 400;
+  font-size: 1.2rem;
 }
