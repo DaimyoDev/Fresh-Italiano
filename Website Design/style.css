@@ -82,6 +82,7 @@ body {
 /* About section */
 .about {
   text-align: center;
+  margin: 3rem;
 }
 .about__mainheading {
   margin: 1rem;
@@ -105,6 +106,7 @@ body {
   font-weight: 500;
   font-size: 1.3rem;
 }
+/* Menu Section */
 .menu {
   text-align: center;
 }
@@ -124,7 +126,7 @@ body {
 }
 .menu__items li {
   width: 500px;
-  height: 500px;
+  height: 450px;
   object-fit: cover;
   margin: 1rem;
   overflow: hidden;
@@ -132,7 +134,59 @@ body {
   background-color: var(--primary-color-main);
 }
 .menu__items li img {
-  width: 500px;
+  width: 700px;
   height: 400px;
-  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.6);
+}
+.menu__items p {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+/* Contact Section */
+.contact {
+  background: var(--primary-color-light);
+  width: 500px;
+  height: 500px;
+  margin: 3rem auto;
+}
+.contact__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact__form__heading {
+  text-align: center;
+  margin: 1rem;
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+.contact__form__name__label {
+  font-size: 2rem;
+  margin: 1rem;
+}
+.contact__form__name__input {
+  width: 80%;
+  height: 40px;
+  font-size: 2rem;
+  font-family: inherit;
+}
+.contact__form__email__label {
+  font-size: 2rem;
+  margin: 1rem;
+}
+.contact__form__email__input {
+  width: 80%;
+  height: 40px;
+  font-size: 2rem;
+  font-family: inherit;
+}
+
+.contact__form__textarea {
+  margin-top: 3rem;
+  width: 80%;
+  height: 100px;
+  font-size: 1rem;
+  font-family: inherit;
+  margin-bottom: 3rem;
 }

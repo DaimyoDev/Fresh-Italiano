@@ -14,9 +14,9 @@
       <div class="navcontainer__divider"></div>
       <ul class="navcontainer__ul">
         <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Our Food</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Our Food</a></li>
+        <li><a href="#contact">Contact Us</a></li>
         <li><a href="#">Opening Hours</a></li>
       </ul>
     </nav>
@@ -28,7 +28,7 @@
         id="hero__image"
         class="hero__image"
       />
-      <h1 class="hero__header">
+      <h1 class="hero__header" id="about">
         Welcome To <span class="hero__header--uppercase">Fresh Italiano</span>
       </h1>
     </div>
@@ -44,7 +44,7 @@
       </p>
     </section>
     <!-- Menu Section -->
-    <section class="menu">
+    <section class="menu" id="menu">
       <h1 class="menu__heading">The Menu</h1>
       <h2 class="menu__subheading">Food For Every Mood</h2>
       <ul class="menu__items">
@@ -70,6 +70,23 @@
           <p>Pasta</p>
         </li>
       </ul>
+    </section>
+    <!-- Contact Us Section -->
+    <section class="contact" id="contact">
+      <h1 class="contact__form__heading">Contact Us</h1>
+      <form class="contact__form">
+        <label for="name" class="contact__form__name__label">Name</label>
+        <input type="text" class="contact__form__name__input" />
+        <label for="email" class="contact__form__email__label">Email</label>
+        <input type="email" class="contact__form__email__input" />
+        <textarea
+          name="textarea"
+          id="textarea"
+          cols=""
+          rows=""
+          class="contact__form__textarea"
+        ></textarea>
+      </form>
     </section>
   </body>
 </html>
