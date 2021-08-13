@@ -239,4 +239,5 @@ body {
 }
 .footer__text {
   font-weight: 300;
+  flex-direction: row;
 }
